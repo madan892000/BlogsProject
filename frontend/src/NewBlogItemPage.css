@@ -1,0 +1,143 @@
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+  }
+  /* Label styles */
+.label {
+    display: block; /* Make labels block-level elements */
+    font-size: 16px;
+    margin-bottom: 5px; /* Add some spacing between labels */
+    color: #333; /* Default label color */
+  }
+  
+  /* Required label styles */
+  .label.required::after {
+    content: "*"; /* Add an asterisk for required fields */
+    color: #ff0000; /* Red color for required field indicator */
+    margin-left: 5px; /* Add some spacing between label text and asterisk */
+  }
+  /* Button styles */
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #00bfff;
+    border-radius: 4px;
+    color: #00eeff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  /* Hover styles */
+  .button1:hover {
+    background-color: #ffaa00;
+    color: #fff;
+  }
+  
+  /* Active/focus styles */
+  .button1:active,
+  .button1:focus {
+    outline: none;
+  }
+  
+  /* Disabled styles */
+  .button1[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  
+  
+  /* Heading styles */
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  /* Form input styles */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Textarea styles */
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .BlogDataSent{
+    display: flex;
+  }
+  /* Container styles */
+.success-container-message {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Success message styles */
+  .success-message {
+    font-size: 24px;
+    color: #4CAF50; /* Green color for success message */
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .success-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .success-button:hover {
+    background-color: #0056b3;
+  }
+  .success-image{
+    height:100px;
+    width:100px
+  }
+  
+  

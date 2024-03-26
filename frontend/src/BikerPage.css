@@ -1,0 +1,116 @@
+.bikerpagecontainer{
+    background-color: black;
+    background-size: cover;
+    padding:10px;
+
+}
+.bikerpagecontainer h1{
+    color:green;
+    text-align:center;
+}
+.childpage{
+    color:silver;
+    display: flex;
+    border:solid 1px;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px 100px;
+}
+.childImage{
+    width:400px;
+    height:300px;
+    max-width: 401px;
+    margin: 20px;
+    border-radius: 50%;;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hit-me-button {
+    background-color: grey; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Add mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Button hover effect */
+  .hit-me-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+
+  .bikerpageHeader{
+    display: flex;
+    justify-content: space-around;
+  }
+  .clickHereButton{
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Add mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .clickHereButton:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .clickHereButton:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* Increase shadow on click */
+  }
+  /* Button container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Edit button styles */
+.edit-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Delete button styles */
+.delete-button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

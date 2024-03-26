@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+}
+
+.bikesSection{
+    background-color: black;
+    color:aliceblue;
+    background-size: cover;
+    display: flex;
+    padding:10px
+}
+
+.BikeSectionImage{
+    background-size: cover;
+    height:40vh;
+    margin-right: 10px;
+}
+

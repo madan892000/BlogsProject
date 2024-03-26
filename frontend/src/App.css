@@ -1,0 +1,42 @@
+.heading{
+  font-size:25px;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  background-color:#222;
+  margin-bottom: 0px;
+}
+
+.heading a{
+  text-decoration: none;
+  color:silver;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar a{
+  padding-right: 10px;
+}
+
+.blogbox{
+  display: flex;
+  padding: 10px;
+  border: solid #222 2px;
+  margin: 10px;
+}
+
+.blogtext{
+  padding-left: 10px;
+}
+
+span{
+  color:darkgreen
+}
+.UserInfoDisplay{
+  background-color: black;
+  text-align: end;
+  color:white;
+  padding-right: 20px ;
+}

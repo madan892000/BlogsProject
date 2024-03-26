@@ -1,0 +1,85 @@
+.mainCon{
+    align-items: center;
+    margin:10px;
+    height:100vh;
+    background-size: cover;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginContainer{
+    border: solid 1px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: burlywood;
+    border: solid 1px;
+    border-radius: 20px;
+    width : 20%;
+    height : 40%;
+}
+.loginContainer h1{
+    color :darkgreen
+}
+
+.userbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    margin:10px
+}
+
+/* Hover effect */
+.login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.register-button {
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect */
+.register-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.input{
+    height:20px;
+    width:80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.spanEle{
+    color:brown;
+
+}
+
+.label{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error{
+    color:crimson
+}

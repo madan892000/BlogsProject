@@ -1,0 +1,16 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    color: silver;
+    padding: 10px;
+}
+
+.headerElements{
+    font-family: "lobster";
+    padding-right: 10px;
+    background-color: transparent;
+    border: none;
+    color:silver;
+    text-decoration: none;
+}
